@@ -1,0 +1,16 @@
+{
+  "name": "receiveitcpacket",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "zeromq": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "parse-packets": "node ParsePackets/parsePackets.js \"C:\\dev\\itcmon\\windows\\itcmon-v02\\itcmon-v02\\packets.hex\" .\\ParsePackets\\packets.csv"
+  }
+}
