@@ -7,10 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "dependencies": {
-    "zeromq": "^6.0.0"
+    "zeromq": "^6.5.0"
   },
   "scripts": {
     "start": "node index.js",
-    "parse-packets": "node ParsePackets/parsePackets.js \"C:\\dev\\itcmon\\windows\\itcmon-v02\\itcmon-v02\\packets.hex\" .\\ParsePackets\\packets.csv"
+    "parse-packets": "node ParsePackets/parsePackets.js \"C:\\dev\\itcmon\\windows\\itcmon-v02\\itcmon-v02\\packets.hex\" .\\ParsePackets\\packets.csv",
+    "zmq": "node zmq/zmq.js"
   }
 }
