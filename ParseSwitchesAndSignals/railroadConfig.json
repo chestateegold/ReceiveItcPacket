@@ -1,0 +1,50 @@
+[
+      {
+            "rr": "076",
+            "abbrev": "BNSF",
+            "switchBytesFirst": true,
+            "reverseSignalBits": true,
+            "signals": {
+                  "3": "Clear",
+                  "4": "AprLtd",
+                  "5": "AprAdv",
+                  "6": "AprMed",
+                  "7": "AprRestr",
+                  "8": "Approach",
+                  "9": "DivClr",
+                  "10": "DivAprDivr",
+                  "11": "DivAprMed",
+                  "12": "DivApr",
+                  "13": "Restrct",
+                  "14": "StopGo",
+                  "15": "Stop",
+                  "16": "DivAprClr50"
+            }
+      },
+      {
+            "rr": "802",
+            "abbrev": "UP",
+            "switchBytesFirst": true,
+            "reverseSignalBits": true,
+            "signals": {
+                  "1": "Clear",
+                  "2": "Apr60",
+                  "3": "Apr50",
+                  "4": "AdvApr",
+                  "5": "AprDiv",
+                  "6": "Approach",
+                  "7": "AprRestr",
+                  "8": "DivClrLtd",
+                  "9": "DivClr",
+                  "10": "DivAdvApr",
+                  "11": "DivApr",
+                  "12": "DivAprDiv",
+                  "13": "DstApr",
+                  "14": "Restrct",
+                  "15": "Stop",
+                  "16": "DivAprClr50",
+                  "30": "Dark",
+                  "31": "Stop!"
+            }
+      }
+]

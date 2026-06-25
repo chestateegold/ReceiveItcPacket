@@ -12,6 +12,8 @@
   "scripts": {
     "start": "node index.js",
     "parse-packets": "node ParsePackets/parsePackets.js \"C:\\dev\\itcmon\\windows\\itcmon-v02\\itcmon-v02\\packets.hex\" .\\ParsePackets\\packets.csv",
-    "zmq": "node zmq/zmq.js"
+    "zmq": "node zmq/zmq.js",
+    "parse-switches": "node ParseSwitchesAndSignals/cli.js",
+    "test-switches": "node ParseSwitchesAndSignals/parseSwitchesAndSignals.js --self-test"
   }
 }
