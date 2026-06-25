@@ -132,6 +132,11 @@ function runSelfTest() {
 
     assert.strictEqual(result3.success, "ambiguous");
 
+    // nonsense and garbled. expecting a failure
+    const result4 = parseSwitchesAndSignals("802", 0b1100011111000000);
+
+    assert.strictEqual(result4.success, "no");
+
     console.log("Self-test passed.");
 }
 

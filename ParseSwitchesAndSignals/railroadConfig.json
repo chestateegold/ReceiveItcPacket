@@ -25,7 +25,7 @@
             "rr": "802",
             "abbrev": "UP",
             "switchBytesFirst": true,
-            "reverseSignalBits": true,
+            "reverseSignalBits": false,
             "signals": {
                   "1": "Clear",
                   "2": "Apr60",
